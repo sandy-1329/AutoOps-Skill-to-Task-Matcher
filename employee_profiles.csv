@@ -1,0 +1,6 @@
+employee_id,name,role,skills
+101,Alice,Data Scientist,"python, machine learning, pandas, numpy"
+102,Bob,DevOps Engineer,"docker, kubernetes, aws, linux"
+103,Charlie,ML Engineer,"deep learning, pytorch, tensorflow"
+104,David,HR Specialist,"recruitment, onboarding, payroll"
+105,Eva,Finance Analyst,"budgeting, financial analysis, reporting"

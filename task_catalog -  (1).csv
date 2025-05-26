@@ -1,0 +1,15 @@
+task_id,task_description,automation_possible,suggested_tool
+T01,Schedule meetings,Yes,Google Calendar + Zapier
+T02,Maintain inventory,Yes,Airtable + Script
+T03,Respond to internal emails,Yes,GPT-4 Email Bot
+T04,Handle onboarding,No,-
+T05,Generate weekly sales reports,Yes,Python + Power BI
+T06,Forecast sales trends,No,-
+T07,Manage CRM data,Yes,HubSpot Automation
+T08,Prepare financial statements,Yes,Excel Macro + Python
+T09,Employee documentation,Yes,Google Drive + DocuSign
+T10,Coordinate logistics,Yes,Trello + Slack Bots
+T11,Conduct interviews,No,-
+T12,Reconcile bank statements,Yes,Excel + Reconciliation Script
+T13,IT ticket support,Yes,Freshdesk Bot
+T14,Build automation scripts,No,-
