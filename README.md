@@ -1,54 +1,23 @@
-# 🤖 AutoOps – Skill-to-Task Matcher
+# 🤖 AutoOps AI – Skill-to-Task Matcher
 
-An AI-powered system that uses **SBERT embeddings** and **cosine similarity** to intelligently match company tasks to employees based on their roles and skillsets.  
-Built to **optimize workforce efficiency** by identifying who is best suited for what, while also highlighting automation opportunities.
+## 🔍 Project Overview
+**AutoOps AI – Skill-to-Task Matcher** is an AI-powered system that analyzes resumes and matches them to relevant company tasks and roles. It helps HR and operations teams identify skill-task alignments, reduce redundancy, and explore automation opportunities.
 
----
-
-## 📌 Project Goal
-
-To help companies:
-
-- **Automate repetitive work**
-- **Reduce departmental redundancy**
-- **Match tasks to the best-fit employees**
-- **Support restructuring & optimization**
-- **Cut operational costs with AI-driven clarity**
+This project is a module of the **AutoOps AI Suite** designed for enterprise workforce optimization.
 
 ---
 
-## 🛠️ Tech Stack
-
-- `Python`
-- `pandas`, `numpy`
-- `sentence-transformers` (SBERT)
-- `scikit-learn`
-- `cosine_similarity`
-- `Google Colab / Jupyter`
-
----
-
-## 📂 Files
-
-| File Name                | Description                                  |
-|--------------------------|----------------------------------------------|
-| `skill_to_task_matcher.ipynb` | Main notebook for task-employee AI matching |
-| `employee_profiles.csv`  | Simulated employee data (skills, roles, etc.) |
-| `task_catalog.csv`       | Simulated task descriptions + automation tags |
-| `requirements.txt`       | Python dependencies                         |
-| `README.pdf`             | PDF version of this README                  |
-| `AutoOps_Skill_to_Task_Matcher_Report.pdf` | Full 16-page academic-style project report |
+## 🚀 Key Features
+- 🧠 Semantic matching of resumes and job tasks
+- 🔍 Cosine similarity with Sentence-BERT embeddings
+- 📊 Ranked task matches per candidate
+- ✅ Realistic resume and task samples
+- 🗂️ Output as ranked match table (CSV)
 
 ---
 
 ## 🧠 How It Works
 
-1. **SBERT embeddings** are created for each employee's skill profile and each task description.
-2. **Cosine similarity** is computed between each employee-task pair.
-3. The top N matches are selected per employee, ranked by match score.
-4. Matches also flag tasks marked `automation_possible = Yes`, and recommend `suggested_tool` (e.g., Zapier, Python).
-
----
-
-## 🧪 Sample Output
-
+1. **Input**:
+   - Resume text
+   - Company task descriptions
